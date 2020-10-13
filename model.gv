@@ -1,0 +1,11 @@
+digraph model {
+	A [label=A fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	B [label=B fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	_mul0 [label=_mul0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	D [label=D fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	_plus0 [label=_plus0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	_mul0 -> A [label="" arrowtail=open dir=back]
+	_mul0 -> B [label="" arrowtail=open dir=back]
+	_plus0 -> _mul0 [label="" arrowtail=open dir=back]
+	_plus0 -> D [label="" arrowtail=open dir=back]
+}

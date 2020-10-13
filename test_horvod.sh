@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7' horovodrun -np 8 -H localhost:8 python train.py \
+--network r100 --loss arcface --dataset emore --per-batch-size 64horovodrun -np 2 -H localhost:2 python horovod_mnist.py
